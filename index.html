@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To the prettiest most talented girlfriend in the world</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #ffe0f0, #fffaf0);
+      color: #333;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    .heart {
+      position: fixed;
+      top: -10px;
+      font-size: 24px;
+      animation: fall 5s linear infinite;
+      color: #ff69b4;
+      z-index: 9999;
+      opacity: 0.8;
+    }
+
+    @keyframes fall {
+      0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+    .container {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      margin-top: 2rem;
+      color: #d63384;
+    }
+    .section {
+      margin-top: 4rem;
+    }
+    .love-letter {
+      background-color: #fff0f5;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 4rem;
+    }
+    .buttons button {
+      padding: 1.5rem 2rem;
+      font-size: 1.2rem;
+      background-color: #f9c2ff;
+      border: none;
+      border-radius: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .buttons button:hover {
+      background-color: #e99fe7;
+    }
+    .message-box {
+      margin-top: 3rem;
+      padding: 1.5rem;
+      border-radius: 16px;
+      background-color: #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: none;
+    }
+    .final {
+      margin-top: 5rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #ff1493;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>To the prettiest most talented girlfriend in the world 💖</h1>
+
+    <div class="section love-letter">
+      <p>
+        Love,
+        I know things haven’t been perfect, and maybe I haven’t either, but I never stopped loving u, not for a second. I still think about the way things used to feel when it was just us and I wanna find that again with u. Tu kehti thi main tera book bf hoon, idk if I still am, but I’d do anything to be that guy again or even better, the one who made u feel heard and loved every single day. I won’t say some fancy flirty shit. All I’ll say is I love u. More than u know. More than u can imagine. More than I’ve shown lately. But it’s always been there. Also let’s be honest You’re the prettiest, smartest, cutest, funniest, strongest (did I say cutest?) girlfriend anyone could ask for. I genuinely admire u. Like idk how I got so lucky that u chose me. And finally, Happy Girlfriend’s Day, love 💝 I couldn’t get u the gift u wanted, I’m sorry. But I made this instead. Hope u like it 💌 I love u so so so so so so much 💕
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Click When: 💗</h2>
+      <div class="buttons">
+        <button onclick="showMessage('crying')">You feel like crying 😢</button>
+        <button onclick="showMessage('lonely')">You feel lonely 💭</button>
+        <button onclick="showMessage('sleep')">You can't sleep 🌙</button>
+        <button onclick="showMessage('anxious')">You feel anxious 😵‍💫</button>
+        <button onclick="showMessage('tired')">You feel tired 😴</button>
+      </div>
+    </div>
+
+    <div id="crying" class="message-box">
+      <h3>When you feel like crying 😢</h3>
+      <p>I know kabhi kabhi sab kuch zyada ho jaata hai. You just wanna let it all out. But love, jitni strong hai na utna koi nahi hai. It's okay, kabhi kabhi hota hai. Even if I'm not there I just want you to know I love you and sab thik ho jayega. It always does. I wish I could just hug you tight, hold you and tell you it’s gonna be okay. You don’t have to deal with it all alone. Tu bas yeh yaad rakhna I love you so much and I want nothing more than to see you happy. ❤️</p>
+    </div>
+
+    <div id="lonely" class="message-box">
+      <h3>When you feel lonely 💭</h3>
+      <p>Kabhi kabhi sab ke beech bhi akela lagta hai na. Jaise koi samajh hi nahi raha. But I do, love. There’s not a moment I don’t think about you. Even when we don’t talk, I’m still thinking about you. I miss you so much. Tu akeli kabhi nahi thi, kabhi nahi hogi. You have me, always. 🤍</p>
+    </div>
+
+    <div id="sleep" class="message-box">
+      <h3>When you can't sleep 🌙</h3>
+      <p>Eyes close karte hi thoughts aate hai, aur neend nahi aati. Sab kuch weird sa lagta hai. But ab thoda rest karle. Just imagine something calm....your safe space. Waise bhi pura din itna tiring hota hai… ab bas relax kar and think about good vibes. I'm here, you can message me anytime. Goodnight, love :) 💤</p>
+    </div>
+
+    <div id="anxious" class="message-box">
+      <h3>When you feel anxious 😵‍💫</h3>
+      <p>Jab sab kuch overwhelming lagta hai, heart beat tez hojati hai and mind won’t stop. Remember in that moment that you have people who love you and always care for you. You do a lot of work and of course it'll get tiring but it's okay. Anxious hone se kuch ni hoga. Jaaye jaaye maa chudae bolke aage badho. Anxiety ki mkc 😂 I love you. 🫶</p>
+    </div>
+
+    <div id="tired" class="message-box">
+      <h3>When you feel tired 😴</h3>
+      <p>Pura din itna exhausting hota hai na kabhi kabhi, jaise bas sab kuch chhodke sojaun. But love, tu itni hardworking hai and I’m so proud of you. When you feel tired just stop for some time, rest kar. Tu koi machine nahi hai. Your health is sabse important so nikal liya kr time you can manage everything I know but youre only human. So take care and moj maar hota rahega kaam❤️🌙💤</p>
+    </div>
+
+    <div class="final">
+      You’re the love of my life, Vartika. ❤️<br />
+      I hope you like your gift :)<br />
+      Happy Girlfriend's Day, love! 💘
+    </div>
+  </div>
+
+  <!-- Falling hearts script -->
+  <script>
+    function showMessage(id) {
+      document.querySelectorAll('.message-box').forEach(el => el.style.display = 'none');
+      document.getElementById(id).style.display = 'block';
+    }
+
+    // Generate hearts
+    function createHeart() {
+      const heart = document.createElement('div');
+      heart.classList.add('heart');
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.animationDuration = (Math.random() * 2 + 3) + "s";
+      heart.innerHTML = "💖";
+      document.body.appendChild(heart);
+
+      setTimeout(() => {
+        heart.remove();
+      }, 5000);
+    }
+
+    setInterval(createHeart, 300);
+  </script>
+</body>
+</html>
